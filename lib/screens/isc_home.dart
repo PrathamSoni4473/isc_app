@@ -59,7 +59,7 @@ class iscHomepage extends StatelessWidget {
                         Align(
                           alignment: Alignment.center,
                           child: Text(
-                            'Find and Apply to your dream study abroad destination',
+                            'Find and Apply to your dream study abroad destinations',
                             style: Theme.of(context).textTheme.headline1,
                             textAlign: TextAlign.center,
                           ),
