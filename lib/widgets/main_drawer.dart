@@ -63,7 +63,7 @@ class MainDrawer extends StatelessWidget {
           ),
           ListTile(
             title: Text(
-              'Success Stories',
+              'Success Story',
               style: Theme.of(context).textTheme.subtitle2,
             ),
             onTap: () {
