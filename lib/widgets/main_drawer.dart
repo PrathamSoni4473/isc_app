@@ -51,7 +51,7 @@ class MainDrawer extends StatelessWidget {
           ),
           ListTile(
             title: Text(
-              'Contact Us',
+              'Contact U',
               style: Theme.of(context).textTheme.subtitle2,
             ),
             onTap: () {
