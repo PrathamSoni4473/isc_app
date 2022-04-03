@@ -25,6 +25,12 @@ class MyApp extends StatelessWidget {
                   const TextStyle(fontSize: 14, fontFamily: 'Montserrat'),
               subtitle2:
                   const TextStyle(fontSize: 12, fontFamily: 'Montserrat'),
+              bodyText1: const TextStyle(
+                  fontSize: 12,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Montserrat'),
+              bodyText2:
+                  const TextStyle(fontSize: 10, fontFamily: 'Montserrat'),
             ),
       ),
       home: iscHomepage(),

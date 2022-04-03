@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../screens/all_uni.dart';
 
 class MainDrawer extends StatelessWidget {
   const MainDrawer({Key? key}) : super(key: key);
@@ -19,7 +20,12 @@ class MainDrawer extends StatelessWidget {
               style: Theme.of(context).textTheme.subtitle2,
             ),
             onTap: () {
-              Navigator.pop(context);
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => const AllUniversities()),
+              );
+              ;
             },
           ),
           const Divider(
