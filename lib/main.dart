@@ -21,6 +21,16 @@ class MyApp extends StatelessWidget {
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
                   fontFamily: 'Montserrat'),
+              headline3: const TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.bold,
+                  color: Color.fromARGB(255, 63, 181, 255),
+                  fontFamily: 'Montserrat'),
+              headline4: const TextStyle(
+                  fontSize: 15,
+                  // fontWeight: FontWeight.bold,
+                  // color: Color.fromARGB(255, 63, 181, 255),
+                  fontFamily: 'Montserrat'),
               subtitle1:
                   const TextStyle(fontSize: 14, fontFamily: 'Montserrat'),
               subtitle2:

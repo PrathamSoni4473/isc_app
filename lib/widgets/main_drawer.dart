@@ -25,7 +25,6 @@ class MainDrawer extends StatelessWidget {
                 MaterialPageRoute(
                     builder: (context) => const AllUniversities()),
               );
-              ;
             },
           ),
           const Divider(

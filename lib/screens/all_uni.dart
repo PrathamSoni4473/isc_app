@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../widgets/main_drawer.dart';
 import '../widgets/uni_info.dart';
+import './programs.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class AllUniversities extends StatefulWidget {
@@ -204,7 +205,14 @@ class _AllUniversitiesState extends State<AllUniversities> {
                                   ),
                                   SizedBox(height: 10),
                                   RaisedButton(
-                                    onPressed: () {},
+                                    onPressed: () {
+                                      Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                            builder: (context) =>
+                                                const Programs_info()),
+                                      );
+                                    },
                                     padding: const EdgeInsets.symmetric(
                                         horizontal: 25, vertical: 15),
                                     color: Colors.blue,
