@@ -16,7 +16,7 @@ class MainDrawer extends StatelessWidget {
               child: Image.asset('assets/images/iSchoolConnect-logo.png')),
           ListTile(
             title: Text(
-              'All Universities',
+              'All University',
               style: Theme.of(context).textTheme.subtitle2,
             ),
             onTap: () {
@@ -56,7 +56,7 @@ class MainDrawer extends StatelessWidget {
           ),
           ListTile(
             title: Text(
-              'Contact Us',
+              'Contact U',
               style: Theme.of(context).textTheme.subtitle2,
             ),
             onTap: () {
@@ -68,7 +68,7 @@ class MainDrawer extends StatelessWidget {
           ),
           ListTile(
             title: Text(
-              'Success Stories',
+              'Success Story',
               style: Theme.of(context).textTheme.subtitle2,
             ),
             onTap: () {
