@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import '../screens/all_uni.dart';
+import '../screens/guide.dart';
+import '../screens/about_us.dart';
+import '../screens/contact_us.dart';
 
 class MainDrawer extends StatelessWidget {
   const MainDrawer({Key? key}) : super(key: key);
@@ -36,31 +39,39 @@ class MainDrawer extends StatelessWidget {
               style: Theme.of(context).textTheme.subtitle2,
             ),
             onTap: () {
-              Navigator.pop(context);
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const guide()),
+              );
             },
           ),
           const Divider(
             color: Colors.black,
           ),
           ListTile(
-            title: Text(
-              'About Us',
-              style: Theme.of(context).textTheme.subtitle2,
-            ),
-            onTap: () {
-              Navigator.pop(context);
-            },
-          ),
+              title: Text(
+                'About Us',
+                style: Theme.of(context).textTheme.subtitle2,
+              ),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const aboutus()),
+                );
+              }),
           const Divider(
             color: Colors.black,
           ),
           ListTile(
             title: Text(
-              'Contact U',
+              'Contact Us',
               style: Theme.of(context).textTheme.subtitle2,
             ),
             onTap: () {
-              Navigator.pop(context);
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const ContactUs()),
+              );
             },
           ),
           const Divider(
